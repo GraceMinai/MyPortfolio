@@ -1,0 +1,116 @@
+---
+name: "Minai Portfolio"
+title: "Grace Minai"
+image: "Grace_Minai.png"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/grace-minai-264b71113/" 
+    target: "_blank"
+  - label: Twitter
+    url: "https://twitter.com/GraceMinai" 
+    target: "_blank"
+  - label: GitHub
+    url: "https://github.com/GraceMinai" 
+    target: "_blank"
+output: 
+  
+site: distill::distill_website
+---
+
+ 
+## Introduction
+
+Grace Minai is an ambitious Data Science Master's student and seasoned expert in Machine Modeling, boasting six years of extensive experience in Computer Engineering, Automation systems, PLC Programming, Data Analytics, Machine Learning, and Data Visualization. With a strong foundation in the automation sector, she possesses unparalleled skills in designing, maintaining, and troubleshooting Programmable Logic Controllers. As a passionate Computer Engineer enthusiast, Grace is actively seeking opportunities to further her analytical and engineering skills, delving deeper into the dynamic realms of this rapidly evolving industry. Her ultimate goal is to empower companies in making well-informed decisions by aiding in the development of effective business plans.
+
+Equipped with a diverse set of technical skills, including PLC Programming, SCADA, Statistical Analysis, and Machine Learning, Grace is proficient in an array of programming languages such as Python, R, Matlab, Stata, SPSS, SAS, SQL, Pytorch, Scikit-Learn, TensorFlow, and Keras. She also possesses expertise in utilizing data visualization tools like Power BI, Tableau, Ignition, R, and Qlikview.
+
+In her current role as a Business Intelligence Developer  at VANDATA LLC in Grand Rapids, MI, Grace actively contributes to data collection, processing, and analysis using various tools and software. She plays a pivotal role in developing data models and visualizations to bolster business intelligence reporting and analysis. Collaborating closely with the development team, Grace spearheads the creation of BI, Tableau, Ignition, Crystal, and QlikView automation reports for clients. Additionally, she conducts thorough research and data analysis to support informed business decisions, while also monitoring and analyzing departmental performance within companies.
+
+Previously, as a Graduate Research Assistant at Grand Valley State University in Allendale, MI, Grace worked extensively with massive datasets for computer vision and image processing for segmentation purposes. Proficient in deep Neural Network architectures, she excelled in training both neural, non-neural, and classical machine learning models. Grace also contributed significantly to the development of novel approaches for data pipelines, cleansing, and aggregating datasets for training. Her expertise in image segmentation using Python and CNN algorithms led to the successful development of image datasets for testing and training. Furthermore, she played a pivotal role in the development of Coral Restoration Classification models for Computer Vision, utilizing Pytorch, TensorFlow, and Keras to measure and improve the coral corpus for coral restoration efforts.
+
+
+
+## The Role of Probability in Predictive Modeling and Statistical Inference
+
+Probability serves as a vital tool in predictive modeling and statistical inference, offering a framework to quantify uncertainty and assess the likelihood of various outcomes in diverse scenarios. It plays a crucial role in predicting outcomes based on available data, allowing for a nuanced understanding of potential results.
+
+For instance, in a mini-competition focusing on inventory needs, probability helped in estimating future sales based on past performance. By analyzing sales data and applying probability principles, predictions could be made about which products would be in higher demand. Adjusting parameters, such as the threshold for sales volume, altered these predictions, showcasing the flexibility and utility of probability in decision-making processes.
+
+Moreover, probability is fundamental in statistical inference, particularly in hypothesis testing. Significance values (p-values) and confidence levels, akin to probabilities, aid in drawing conclusions from data and assessing the validity of statistical models. These values provide insights into the likelihood of observing certain outcomes under specific conditions, guiding researchers in making informed decisions.
+
+Furthermore, probability facilitates the assessment of maximum likelihood estimation, as seen in models like K-nearest neighbors. By assigning probabilities to data points belonging to different groups, these models can effectively classify observations based on their likelihood of belonging to a particular category.
+
+Illustratively, in a scenario where 4780 individuals (both black and white) attend interviews, probability helps predict the likelihood of receiving callbacks. By analyzing the callback rates within the sample, the probability of an individual receiving a callback can be estimated, aiding in understanding the underlying dynamics of the hiring process.
+
+Similarly, probability is applied in logistic regression models to predict the likelihood of individuals receiving callbacks based on their race. By incorporating probability into the modeling process, researchers can uncover patterns and disparities, shedding light on potential biases and informing strategies for addressing them.
+
+In essence, probability serves as a cornerstone in predictive modeling and statistical inference, enabling researchers and practitioners to navigate uncertainty, make informed decisions, and uncover insights from data. Its versatile applications underscore its importance in various fields, from inventory management to addressing social inequalities.
+
+
+![Example received callbacks](explora_5.png)
+
+
+The proportions presented in the table above are utilized in determining the likelihood of a randomly chosen individual receiving callbacks. For example, the probability of a white individual receiving callbacks stands at 9.65%. In this context, within a linear logistic model (employed for categorical classification), probability plays a crucial role in generating predictions regarding whether the individual who received callbacks is black or white.
+
+## Noteworthy Projects Undertaken
+
+### Mini-Competition 1: Linear Regression Analysis
+
+__Objective: To assess the correlation between parental/guardian involvement in students' education and academic performance__
+
+This project involved the following key steps:
+
+*Step 1: Exploratory Data Analysis*
+
+We conducted exploratory data analysis by creating various visualizations to scrutinize the distribution of responses regarding school preferences, modes of learning (e.g., in-person vs. virtual classes), and other factors, as depicted in the provided screenshot:
+
+![Parent involvement and virtual learning](explora_1.png)
+
+*Step 2: Selection of Dependent and Independent Variables*
+
+Although numerous variables were available, we opted to focus on the following as independent variables for investigating and validating the linear model: CHLDNT, RACEETH, P1SEX, PARGRADEX, DSBLTY, TTLHHINC, and EINTNET. The predicted variable, SEGRADES, was utilized as a metric for student performance.
+
+*Step 3: Conducting Correlation Analysis and Identifying Optimal Explanatory Variables using ggpairs()*
+
+We performed correlation analysis among the variables and utilized ggpairs() to select the most suitable explanatory variables for our analysis.
+
+
+![Correlational Analysis](explora_2.png)
+
+*Step 4: Final Model selection*
+```{}
+SEGRADES = β0 + β1CHLDNT + β2RACEETH + β3P1SEX + β4PARGRADEX + β5DSBLTY + β6TTLHHINC + β7EINTNET
+
+```
+
+
+There was no correlation between the predictors, meaning they can be used within the model in determining the students performance (grades during a school year). 
+
+### Key Findings
+
+
+1. There was no observed correlation among the predictors, indicating their suitability for use within the model to predict student performance (grades during the school year).
+
+2. CHLDNT (child's internet usage for learning activities), DSBLTY (child with a disability), and P1SEX (gender of parent at home) exhibited p-values that lacked significance in predicting student performance in virtual learning environments.
+
+3. EINTNET, TTLHHINC, PARGRADEX, and RACEETH emerged as significant predictors for identifying students who benefited most from virtual learning.
+
+4. The majority of students identified themselves as white non-Hispanic, followed by Hispanic, black non-Hispanic, and Asian.
+
+5. Students tended to benefit more from virtual learning when their parents or guardians had attained higher levels of education (vocational/technical education after high school, some college, college graduate, or graduate/professional school).
+
+6. Children from families with higher total household incomes ($75,001 to $100,000, $100,001 to $150,000, $150,001 to $200,000) were observed to benefit more from virtual learning.
+
+### Conclusion
+
+The findings suggest that a significant portion of students who benefited from virtual learning did not participate in online classes. This implies that many successful students' parents prefer direct interaction between their children and teachers.
+
+
+
+
+
+
+
+
+
+
