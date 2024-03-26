@@ -4,7 +4,7 @@ title: "Grace Minai"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/grace-minai-264b71113/" 
-    target: "_blank"
+    target='_blank'"
   - label: Twitter
     url: "https://twitter.com/GraceMinai" 
     target: "_blank"
@@ -16,11 +16,9 @@ output:
 site: distill::distill_website
 ---
 
+
 ## Introduction
 
-Grace Minai is an ambitious Data Science Master's student and seasoned expert in Machine Modeling, boasting six years of extensive experience in Computer Engineering, Automation systems, PLC Programming, Data Analytics, Machine Learning, and Data Visualization. With a strong foundation in the automation sector, she possesses unparalleled skills in designing, maintaining, and troubleshooting Programmable Logic Controllers. As a passionate Computer Engineer enthusiast, Grace is actively seeking opportunities to further her analytical and engineering skills, delving deeper into the dynamic realms of this rapidly evolving industry. Her ultimate goal is to empower companies in making well-informed decisions by aiding in the development of effective business plans.
-
-Equipped with a diverse set of technical skills, including PLC Programming, SCADA, Statistical Analysis, and Machine Learning, Grace is proficient in an array of programming languages such as Python, R, Matlab, Stata, SPSS, SAS, SQL, Pytorch, Scikit-Learn, TensorFlow, and Keras. She also possesses expertise in utilizing data visualization tools like Power BI, Tableau, Ignition, R, and Qlikview.
 
 In her current role as a Business Intelligence Automation Engineer at VANDATA LLC in Grand Rapids, MI, Grace actively contributes to data collection, processing, and analysis using various tools and software. She plays a pivotal role in developing data models and visualizations to bolster business intelligence reporting and analysis. Collaborating closely with the development team, Grace spearheads the creation of BI, Tableau, Ignition, Crystal, and QlikView automation reports for clients. Additionally, she conducts thorough research and data analysis to support informed business decisions, while also monitoring and analyzing departmental performance within companies.
 

@@ -1,0 +1,84 @@
+---
+title: "Grace Minai"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/grace-minai-264b71113/ target='_blank'"
+  - label: Twitter
+    url: "https://twitter.com/GraceMinai target='_blank'"
+  - label: GitHub
+    url: "https://github.com/GraceMinai target='_blank'"
+output:
+  postcards::solana
+---
+
+ 
+## Bio
+
+Grace Minai is an ambitious Data Science Master's student and seasoned expert in Machine Modeling, boasting six years of extensive experience in Computer Engineering, Automation systems, PLC Programming, Data Analytics, Machine Learning, and Data Visualization. With a strong foundation in the automation sector, she possesses unparalleled skills in designing, maintaining, and troubleshooting Programmable Logic Controllers. As a passionate Computer Engineer enthusiast, Grace is actively seeking opportunities to further her analytical and engineering skills, delving deeper into the dynamic realms of this rapidly evolving industry. Her ultimate goal is to empower companies in making well-informed decisions by aiding in the development of effective business plans.
+
+Equipped with a diverse set of technical skills, including PLC Programming, SCADA, Statistical Analysis, and Machine Learning, Grace is proficient in an array of programming languages such as Python, R, Matlab, Stata, SPSS, SAS, SQL, Pytorch, Scikit-Learn, TensorFlow, and Keras. She also possesses expertise in utilizing data visualization tools like Power BI, Tableau, Ignition, R, and Qlikview.
+
+## Education
+
+**Grand Valley State University** | Allendale, MI
+
+Masters in Data Science & Analytics | August 2022 - April 2024
+
+**Maseno University** | Kisumu, Ke
+
+MSc. in Machine Learning | January 2020 - August 2022
+
+**Maseno University** | Kisumu, Ke
+
+BSc. in Computer Science | August 2012 - November 2016
+
+
+## Experience
+
+
+
+
+**Business Intelligence Automation Engineer**     |Grand Rapids, MI
+VANDATA LLC April 2023–Current
+
+*Roles*
+• Assist with data collection, processing, and analysis using various data tools and software.
+• Help develop data models and visualizations to support business intelligence reporting and analysis.
+• Collaborate with development team to create BI, Tableau, Ignition, Crystal, QlikView automation reports for clients.
+• Conduct research and data analysis to create and support business decisions.
+• Monitoring and analyzing companies’ performance departmental.
+
+
+**Graduate Research Assistant**        |Allendale, MI
+GRAND VALLEY STATE UNIVERSITY August 2022–Current
+
+*Roles*
+• Working with massive datasets for computer vision and image processing for Segmentation.
+• Proficient in working with deep Neural Network architectures and training both neural, non-neural and classical machine learning models.
+• Development of Novel approaches for data pipelines, cleansing and aggregating datasets for training.
+• Image segmentation using python and CNN Algorithms to develop the image datasets for testing and training.
+• Development of Coral Restoration Classification models for Computer Vision using Pytorch, Tensorflow, Keras, to measuring and improving the coral corpus for
+coral restoration.
+
+
+**PLC Programmer**         |Nairobi, KE
+TEACHERS SERVICE COMMISSION June 2018–July 2022
+
+*Role*
+• Design, maintain and troubleshoot PLC controllers and system.
+• Identify and provide reliable solutions for all TMP initiatives.
+• Control and monitor industrial equipment through custom programming.
+• Offer support to all TMP and environmental efforts within the Commission.
+• Collaborate with a team of developers, testers, and designers to deliver high-quality software solutions.
+• Machine Learning OMT Cape Town, SA
+
+
+**PMI AIRS PROJECT – USAID**         |Jan 2017– May 2018
+
+*Roles*
+• Building AI systems that leverage big data and development of ML models for predictive analytics.
+• Turning structured data into useful information by auto-tagging images and text-to-speech conversations.
+• Analyzing database tables and report development using SQL, R, PYTHON, SAS, Power BI, Tableau Public
+• Creation of scripts for data extracts
+Publications
+Grace Minai, Denton Bobeldyk, and Jonathan P. Leidig. Incorporating ML in Interaction-Intensive Workflows
