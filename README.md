@@ -1,2 +1,2 @@
 # MyPortfolio
-[Link To Site](https://GraceMinai.github.io/MyPortfolio/)
+[Link To Site](https://github.com/GraceMinai/MyPortfolio/)
