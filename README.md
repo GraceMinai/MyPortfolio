@@ -1,1 +1,2 @@
-# MyPortfolio [link](https://github.com/GraceMinai/MyPortfolio/blob/main/docs/index.html)
+# MyPortfolio
+[Link To Site](https://itsoyondi.github.io/MyPortfolio/)
